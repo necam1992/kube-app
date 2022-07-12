@@ -4,6 +4,7 @@ kind: Deployment
 metadata:
   name: vproapp
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: vproapp
